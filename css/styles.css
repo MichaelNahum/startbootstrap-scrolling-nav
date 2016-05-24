@@ -1,0 +1,66 @@
+.navbar {
+  background: rgb(186, 245, 247);
+  background-image: url('../pictures/Pattern1.png');
+}
+
+ .navbar-default .navbar-nav>li>a {
+  font-weight: bold;
+  color: rgb(6, 47, 91);
+  font-size: 2em;
+  /*border-style: solid;
+  border-width: 2px 1px 2px 2px;
+  border-color: black;*/
+}
+
+#about {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: url('../pictures/Damascus.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+#resume {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: url('../pictures/Mahweet1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+#projects {  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: url('../pictures/WadiRum1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+#contact {  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: url('../pictures/TelAviv1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+  .bottombar {
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+		margin-bottom: 45px;
+  }
+
+.bottombar a {
+	text-shadow: 2px 2px 2px #082b34;
+	color: #a7e8f8;
+	text-decoration: none;
+	text-shadow: 2px;
+	font-weight: bold;
+}
+
+a:not(:last-child) {
+  padding-right: 90px;
+	padding-left: 10px;
+}
